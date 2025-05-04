@@ -228,5 +228,4 @@ REPO_NAME/
 
 ---
 
-### 🎈 Have Fun Presenting!
-That’s it—you’re ready to rock your presentation with the Presentation Controller! Whether you’re waving your hand in Sign Mode or giving voice commands in Voice Mode, you’ve got the power to control your slides like a pro. If you have any questions or need help, feel free to reach out. Happy presenting! 🌟
+### 🎈 Thankyou for using my application
