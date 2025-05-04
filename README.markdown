@@ -6,7 +6,6 @@ Welcome to the **Presentation Controller**—an innovative tool to control your 
 
 See the Presentation Controller in action! Open the link and watch the demo video 
 https://drive.google.com/file/d/11sOOn9CTQKGyh5TnF1w87FmlCIEUgXJ-/view?usp=sharing
----
 
 ## 🎉 User Guide for Presentation Controller
 
