@@ -67,10 +67,10 @@ Here’s a table of all the gestures you can use in Sign Mode:
 | **One Finger Left** 👆⬅️ | Previous Slide (x1) | Show the index finger of your **left hand** pointing left to move to the previous slide. |
 | **Two Fingers Right** ✌️➡️ | Next Slide (x2) | Show two fingers (index and middle) of your **right hand** pointing right to skip forward 2 slides. |
 | **Two Fingers Left** ✌️⬅️ | Previous Slide (x2) | Show two fingers (index and middle) of your **left hand** pointing left to skip backward 2 slides. |
-| **Three Fingers Right** <img src="images/three_fingers_right.png" alt="Three Fingers Right" width="20"> | Next Slide (x3) | Show three fingers (index, middle, ring) of your **right hand** pointing right to skip forward 3 slides. |
-| **Three Fingers Left** <img src="images/three_fingers_left.png" alt="Three Fingers Left" width="20"> | Previous Slide (x3) | Show three fingers (index, middle, ring) of your **left hand** pointing left to skip backward 3 slides. |
-| **Four Fingers Right** <img src="images/four_fingers_right.png" alt="Four Fingers Right" width="20"> | Next Slide (x4) | Show four fingers (index, middle, ring, pinky) of your **right hand** pointing right to skip forward 4 slides. |
-| **Four Fingers Left** <img src="images/four_fingers_left.png" alt="Four Fingers Left" width="20"> | Previous Slide (x4) | Show four fingers (index, middle, ring, pinky) of your **left hand** pointing left to skip backward 4 slides. |
+| **Three Fingers Right** | Next Slide (x3) | Show three fingers (index, middle, ring) of your **right hand** pointing right to skip forward 3 slides. |
+| **Three Fingers Left**  | Previous Slide (x3) | Show three fingers (index, middle, ring) of your **left hand** pointing left to skip backward 3 slides. |
+| **Four Fingers Right** | Next Slide (x4) | Show four fingers (index, middle, ring, pinky) of your **right hand** pointing right to skip forward 4 slides. |
+| **Four Fingers Left** | Previous Slide (x4) | Show four fingers (index, middle, ring, pinky) of your **left hand** pointing left to skip backward 4 slides. |
 | **Right Hand Fist** ✊ | Zoom In | Make a fist with your **right hand** to zoom in on the slide (like `Ctrl + Plus`). |
 | **Right Hand Palm** 🖐️ | Zoom Out | Show an open palm with your **right hand** to zoom out on the slide (like `Ctrl + Minus`). |
 
