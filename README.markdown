@@ -80,7 +80,6 @@ Here’s a table of all the gestures you can use in Sign Mode:
 - **Restarting:** To switch modes or restart, close the app and reopen it to return to the mode selection window.
 
 ---
-
 #### Mode 2: Voice Mode (Voice Control) 🗣️
 In Voice Mode, you control your slides by speaking commands. It’s as easy as talking to a friend! First, you need to activate the system with a voice command, then use other commands to navigate your slides.
 
@@ -150,11 +149,11 @@ Before you begin, ensure your system meets these requirements:
 1. Open a terminal (e.g., Command Prompt, PowerShell, or Git Bash).
 2. Clone the repository to your local machine (replace `YOUR_USERNAME` with the GitHub username and `REPO_NAME` with the repository name):
    ```bash
-   git clone https://github.com/YOUR_USERNAME/REPO_NAME.git
+   git clone https://github.com/surbhi-guptav/PresentationController-v1.git
    ```
 3. Navigate into the project directory:
    ```bash
-   cd REPO_NAME
+   cd PresentationController-v1
    ```
 
 #### Step 2: Set Up a Virtual Environment
@@ -189,20 +188,15 @@ Ensure your project directory has the following structure:
 REPO_NAME/
 │
 ├── src/
-│   ├── app.py                # Main application script
-│   ├── voice_controller.py   # Voice Mode logic
+│   ├── app.py # Main application script
+|   ├── sign / slide_controller.py
+│   ├── voice / voice_controller.py   # Voice Mode logic
 │   ├── Ui_images/
 │   │   ├── sign_mode.png     # Image for Sign Mode button
 │   │   └── voice.png         # Image for Voice Mode button
 │
 ├── models/
 │   └── model_updated.p       # Pre-trained model for Sign Mode
-│
-├── images/
-│   ├── three_fingers_right.png
-│   ├── three_fingers_left.png
-│   ├── four_fingers_right.png
-│   └── four_fingers_left.png
 │
 ├── media/
 │   └── demo.mp4              # Demo video (optional, if hosted in repo)
@@ -237,12 +231,6 @@ REPO_NAME/
     python src/app.py
     ```
   - Ensure all required files (e.g., `model_updated.p`, UI images) are present in the correct directories.
-
-#### Contributing
-Want to improve the Presentation Controller? Feel free to fork the repository, make changes, and submit a pull request. Some ideas for contributions:
-- Add more gestures or voice commands.
-- Improve the UI with custom icons or themes.
-- Optimize performance for better gesture detection or voice recognition.
 
 ---
 
