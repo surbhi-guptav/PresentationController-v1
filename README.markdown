@@ -205,23 +205,4 @@ REPO_NAME/
 2. The welcome window should appear, allowing you to select Sign Mode or Voice Mode.
 3. Follow the usage instructions in this user guide to use Sign Mode or Voice Mode.
 
-#### Troubleshooting Setup Issues
-- **Error: "No module named X"**
-  - Ensure all dependencies are installed (Step 3).
-  - Verify that `requirements.txt` includes the missing module, and re-run `pip install -r requirements.txt`.
-- **Sign Mode Fails with "FileNotFoundError" for MediaPipe Files:**
-  - Ensure the `mediapipe` library is installed correctly (`pip install mediapipe`).
-  - Check that your Python environment has access to the `mediapipe` binary files (they should be in your Python `site-packages/mediapipe` directory after installation).
-- **Voice Mode Fails with Microphone Errors:**
-  - Ensure your microphone is working and accessible.
-  - If you see `[WinError 6] The handle is invalid`, restart the app or check for conflicts with other audio applications.
-- **App Doesn’t Launch:**
-  - Run the script from a terminal to see error messages:
-    ```bash
-    python src/app.py
-    ```
-  - Ensure all required files (e.g., `model_updated.p`, UI images) are present in the correct directories.
-
----
-
 ### 🎈 Thankyou for using my application
