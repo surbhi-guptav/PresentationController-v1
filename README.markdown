@@ -3,12 +3,8 @@
 Welcome to the **Presentation Controller**—an innovative tool to control your PowerPoint presentations using **hand gestures** or **voice commands**! No more fumbling with a clicker—whether you're in a boardroom, classroom, or virtual meeting, this app makes presenting effortless and fun. Check out the demo below to see it in action! 🚀
 
 ## 🎬 Demo Video
-
-<video width="600" controls>
-  <source src="https://raw.githubusercontent.com/surbhi-guptav/PresentationController-v1/main/media/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+See the Presentation Controller in action! Open the link and watch the demo video 
+https://drive.google.com/file/d/11sOOn9CTQKGyh5TnF1w87FmlCIEUgXJ-/view?usp=sharing
 ---
 
 ## 🎉 User Guide for Presentation Controller
