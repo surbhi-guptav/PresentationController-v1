@@ -95,7 +95,7 @@ Before you begin, ensure your system meets these requirements:
 
 #### Step 1: Clone the Repository
 1. Open a terminal (e.g., Command Prompt, PowerShell, or Git Bash).
-2. Clone the repository to your local machine (replace `YOUR_USERNAME` with the GitHub username and `REPO_NAME` with the repository name):
+2. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/surbhi-guptav/PresentationController-v1.git
    ```
