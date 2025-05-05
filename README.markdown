@@ -14,31 +14,6 @@ See the Presentation Controller in action! Open the link and watch the demo vide
 Hey there, presenter extraordinaire! Ready to take your PowerPoint game to the next level? With the **Presentation Controller**, you can control your slides using **hand gestures** or **voice commands**—no more fumbling with a clicker! Whether you're in a boardroom, classroom, or virtual meeting, this app has got your back. Let’s dive in and get you started! 🚀
 
 ### 🌟 Getting Started
-
-#### Step 1: Launch the App
-1. If you’re using a pre-built executable (`app.exe`), double-click it on your Windows machine.
-2. A welcome window will pop up, asking you to choose a mode:
-   - **Sign Mode** (control with hand gestures ✋)
-   - **Voice Mode** (control with your voice 🗣️)
-3. Click on your preferred mode to start. You can always switch modes later using a voice command or by restarting the app.
-4. If you’re running the code directly, see the “For Developers” section below for setup instructions.
-
-#### Step 2: Set Up Your Environment
-- **For Sign Mode:**
-  - Make sure you have a webcam connected (built-in or external).
-  - Position yourself so your hand is visible to the camera—about 2-3 feet away works best.
-  - Good lighting helps the app detect your gestures accurately.
-- **For Voice Mode:**
-  - Ensure you have a working microphone (built-in or external).
-  - Find a quiet spot to avoid background noise for better voice recognition.
-  - You’ll need an internet connection for voice recognition (we use Google Speech Recognition).
-
-#### Step 3: Open Your PowerPoint Presentation
-- Launch your PowerPoint presentation and enter slideshow mode (`F5` in PowerPoint).
-- The app will automatically detect the PowerPoint window and control it for you.
-
----
-
 ### 🎮 Using the Presentation Controller
 
 #### Mode 1: Sign Mode (Gesture Control) ✋
@@ -102,26 +77,7 @@ Here’s a table of all the voice commands you can use in Voice Mode:
 - **Restarting:** Use the "Exit system" command to return to the mode selection window, then choose a mode to restart.
 
 ---
-
-### 🔧 Troubleshooting Tips
-- **Sign Mode Not Detecting Gestures?**
-  - Ensure your hand is visible in the camera window.
-  - Check your lighting—avoid shadows or bright backlights.
-  - Make sure your webcam is working (test it in another app like Camera).
-- **Voice Mode Not Hearing You?**
-  - Verify your microphone is working (test it in Windows Voice Recorder).
-  - Reduce background noise and speak clearly.
-  - Check your internet connection for speech recognition.
-- **App Not Controlling PowerPoint?**
-  - Ensure PowerPoint is in slideshow mode (`F5`).
-  - Make sure the PowerPoint window is active (click on it before starting the app).
-- **App Crashes or Freezes?**
-  - Close the app and restart it.
-  - Ensure your system meets the requirements (Windows OS, webcam for Sign Mode, microphone for Voice Mode).
-
----
-
-### 🛠️ For Developers: Running the Code on Your System
+### 🛠️ Running the Code on Your System
 
 Want to run the Presentation Controller directly from the source code on your own system? Follow these steps to set up and run the project from the GitHub repository. Let’s get started! 🚀
 
@@ -177,7 +133,7 @@ The project includes a `requirements.txt` file listing all required Python libra
 #### Step 4: Verify the Directory Structure
 Ensure your project directory has the following structure:
 ```
-REPO_NAME/
+PresentationController-v1/
 │
 ├── src/
 │   ├── app.py # Main application script
@@ -190,8 +146,7 @@ REPO_NAME/
 ├── models/
 │   └── model_updated.p       # Pre-trained model for Sign Mode
 │
-├── media/
-│   └── demo.mp4              # Demo video (optional, if hosted in repo)
+├── demo.mp4              # Demo video (optional, if hosted in repo)
 │
 ├── requirements.txt          # List of dependencies
 │
